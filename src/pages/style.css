@@ -1,0 +1,100 @@
+*{
+
+    background-color: none;
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-height: max-content;
+    
+}
+
+.homeContainer {
+    background: transparent;
+    color: white; /* Sets the text color to white */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Optional: adds a shadow effect to the text */
+}
+
+.aboutContainer {
+    background: transparent;
+    color: white; /* Sets the text color to white */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Optional: adds a shadow effect to the text */
+    max-width: 700px;
+}
+
+.contactDiv {
+    background-color: #282c34; /* Dark background */
+    padding: 20px;
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly less transparent white background */
+    padding: 20px; /* Padding for spacing */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+.h1text, .ptext{
+    color:white
+}
+
+.text {
+    color: black; /* Light text color for contrast on dark background */
+}
+
+/*For Message text field*/
+textarea{
+    resize: none;
+}
+
+div{
+    background-color: transparent;
+}
+
+a{
+    color:rgb(77, 235, 38);
+}
+
+.skills-container {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for better separation */
+    border-radius: 8px; /* Optional: rounded corners */
+    text-align: center;
+}
+
+.skill {
+    color:black;
+    background-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.text-light{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Optional: adds a shadow effect to the text */
+}
+
+html, body {
+    height: 100%; /* Ensure the body and html take the full viewport height */
+    margin: 0;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the mainDiv takes at least the full viewport height */
+}
+
+.flex-grow-1 {
+    flex-grow: 1; /* Allow this div to expand and take up remaining space */
+}
+
+footer {
+    background-color: none; /* Optional: background color for the footer */
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    color: white;
+}
